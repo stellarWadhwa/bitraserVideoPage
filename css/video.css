@@ -1,0 +1,92 @@
+body{margin: 0; padding: 0; font-family: 'Open Sans',}
+.videoSecParent{max-width: 1600px;  margin: auto;}
+ .color292929{color: #292929;} .color707070{color: #707070;}
+p{font-family: sans-serif;}
+h2,h3,h4,h5{font-family: 'Montserrat', sans-serif; color:#181617;}
+h2{font-size: 32px;} h3{font-size:19px} h4{font-size:13px}
+.f700{font-weight: 700;} .f600{font-weight: 600;}
+.ffnmont{font-family: 'Montserrat', sans-serif;}
+.ffopen{font-family: 'Open Sans', sans-serif;}
+.glob_lr{padding-left: 4rem; padding-right: 4rem}
+.videoSecParent{ padding-top: 4rem;}
+.youtubeButtonsDivParent{padding-bottom: 1rem;}
+.videoSecRight{ background-color: #f7f7f7;   overflow: hidden;   border: 1px     solid rgb(194, 194, 194);      padding: 1.5rem 1rem;    border-radius: 17px; height: fit-content;}
+.like-btnspan{    padding: 0.75rem 1.25rem;  border-radius: 50px; background-color: rgb(231, 231, 231);}
+.subs_btn{color: #fff; border-radius: 26px;  padding: 0.5rem 1.5rem;font-family: 'Montserrat'; background: #e11f26; display: flex; align-items: center; justify-content: center; font-size: 1.05rem}
+.subs_btn:hover{text-decoration: none; color: #FFFFFF}
+.RecommendedSec{position: sticky; top: 0;background-color: #888; padding: 0.5rem;}
+.icon-img{cursor: pointer;}
+.link-icon{filter: brightness(0) invert(1);}
+.mediaParent::-webkit-scrollbar {width: 0.2rem;  }
+.mediaParent::-webkit-scrollbar-thumb{  background-color: #888;border-radius: 25px}
+.mediaParent{overflow-y: scroll;  max-height:530px;}
+.youtubeDetails{padding: 1rem}
+
+.video_container{background: #f7f7f7; border-radius: 20px 20px 0  0}
+.rightSide_bar{border: solid 1px #d1d1d1;border-radius: 15px;overflow: hidden;}
+ 
+.youtubeButtonsDiv{margin-right: 2rem;}
+/* .like-btns-parent{position: relative;  left: 9%;} */
+.like-btns-parent{ display: flex}
+.like-btns-parent span{ background: #e7e7e7; padding: .5rem 1rem; border-radius: 25px; display: flex; align-items: center; margin: 0 .8rem; cursor: pointer; transition: ease-in-out .3s}
+.like-btns-parent span:hover{box-shadow:  0 0 5px #d1d1d1}
+.mediaParent .media{padding: 1rem 1rem; cursor: pointer}
+.mediaParent .media:hover{background: #fff}
+.mediaParent .media img{border-radius: 8px;}
+.media-body p{color:#646464; font-size: 13px; margin-bottom: 0}
+
+.subandytcontrolparent{    align-items: center;}
+
+.icons{display: flex; align-items: center; margin: 1rem}
+.icons span{font-size: 1rem; font-weight:600; color: #707070; padding-left: .5rem}
+.video_nav{display: flex; padding: 1rem; padding-top: 0; justify-content: space-between;}
+.icons:first-child{margin-left: 0}
+
+
+
+@media screen and (min-width:1500px){
+.container-fluid{max-width: 1400px; padding-left: 0; padding-right: 0}
+	 
+}
+
+
+
+@media screen and (max-width:1368px){
+  .mediaParent .media{ padding:.7rem 1rem;}
+  .media-body p{font-size: 12px;}
+}
+@media screen and (max-width:1280px) {
+  .mediaParent .media {flex-direction: column;}
+  .mediaParent .media img{width: max-content;}
+  .mediaParent .media .media-body{padding-top: .5rem;}
+  .icons span{font-size: .8rem;}
+  .youtubeDetails{padding: 1rem 0rem;}
+}
+@media screen and (max-width:1140px){
+  .icons{margin: 1rem .5rem;}
+  .like-btns-parent  span {margin: 0 0.4rem;}
+  .like-btns-parent span:first-child{margin-left: 0;}
+  .video_nav div:first-child {justify-content: flex-start;}
+  .video_nav{ padding-top: 0.5rem;}
+  .subandytcontrolparent{    justify-content: space-between}
+  .youtubeDetails{padding: 1rem 0rem;}
+
+
+}
+@media screen and (max-width:992px){
+  .video_nav{flex-direction: column-reverse;}
+.icons{ padding-top:0.5rem ;}
+.glob_lr{padding-left:1rem; padding-right: 1rem;}
+}
+@media screen and (max-width:767px){
+  .glob_lr{padding-left:0.5rem;padding-right: 0.5rem;}
+  .like-btnspan{padding: 0.5rem;}
+  .like-btns-parent{margin-top: 0.5rem;}
+  h2{font-size: 2rem;}
+  .rightSide_bar{padding-top: 1rem;}
+
+}
+@media screen and (max-width:320px){
+  .icons{flex-direction: column;}
+  .icons img{padding-bottom: 0.4rem;}
+}
